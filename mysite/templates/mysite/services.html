@@ -1,0 +1,111 @@
+{% extends 'mysite/main.html' %}
+{% load static %}
+{% include 'mysite/navbar.html' %}
+{% block content %}
+<body class="hero-wrap js-fullheight" style="background-image: url('static/images/bg-1.jpg');" data-stellar-background-ratio="0.5">>
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="offer-deal text-center px-2 px-lg-5">
+					<div class="img" style="background-image:url('static/images/bg-1.jpg');" data-stellar-background-ratio="0.5"></div>
+					<div class="text mt-4">
+						<h3 class="mb-4">Hair care</h3>
+						<p class="mb-5">let us braid, color and style your hair to your liking</p>
+						<p><a href="#" class="btn btn-white px-4 py-3"><span class="ion-ios-arrow-round-forward"></span></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="offer-deal active text-center px-2 px-lg-5">
+					<div class="img" style="background-image: url(images/offer-deal-2.jpg);"></div>
+					<div class="text mt-4">
+						<h3 class="mb-4">Nail care</h3>
+						<p class="mb-5">Acrylic Nails, Spa Pedicure, Manicure, Polish, U.V & Powder Gel and Dip Powder</p>
+						<p><a href="#" class="btn btn-white px-4 py-3"><span class="ion-ios-arrow-round-forward"></span></a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="offer-deal text-center px-2 px-lg-5">
+					<div class="img" style="background-image: url(images/offer-deal-3.jpg);"></div>
+					<div class="text mt-4">
+						<h3 class="mb-4">waxing</h3>
+						<p class="mb-5">Brazilian, legs, arms, eyebrows, under arms, Bikini, Back Wax and full face</p>
+						<p><a href="#" class="btn btn-white px-4 py-3"><span class="ion-ios-arrow-round-forward"></span></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+    
+<section class="ftco-section ftco-section-services bg-light">
+    <div class="container-fluid px-md-5">
+    	<div class="row">
+    		<div class="col-md-6 col-lg-3">
+				<div class="services text-center ftco-animate">
+					<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-candle"></span></div>
+					<div class="text mt-3">
+						<h3>makeup</h3>
+						<p>soft glam, full face glam, full face natural glam, full face festival glam and bridal makeup</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="services text-center ftco-animate">
+					<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-beauty-treatment"></span></div>
+					<div class="text mt-3">
+						<h3>Skin Care</h3>
+						<p>Detox facials, sgnature facials, deep pore facial, hydrating facials, Microneedling & derma planning</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+				<div class="services text-center ftco-animate">
+					<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-relax"></span></div>
+					<div class="text mt-3">
+						<h3>Body Massages</h3>
+						<p>Swedish, deep tissue, hot stone,couples and lymphatic drainages</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>
+
+<section class="ftco-gallery ftco-section">
+	<div class="container">
+   		<div class="row justify-content-center mb-5 pb-3">
+         	<div class="col-md-7 heading-section ftco-animate text-center">
+            	<h3 class="subheading">Gallery</h3>
+            	<h2 class="mb-1">See the latest photos</h2>
+          	</div>
+        </div>
+    	<div class="row">
+			<div class="col-md-3 ftco-animate">
+				<a href="statimages/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(staticimages/gallery-1.jpg);">
+					<div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+				</a>
+			</div>
+			<div class="col-md-3 ftco-animate">
+				<a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+					<div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+				</a>
+			</div>
+			<div class="col-md-3 ftco-animate">
+				<a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+					<div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+				</a>
+			</div>
+			<div class="col-md-3 ftco-animate">
+				<a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+					<div class="icon mb-4 d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></div>
+				</a>
+			</div>
+        </div>
+    </div>
+</section>
+	</body>
+
+{% endblock %}
