@@ -1,5 +1,6 @@
 from django.urls import path
 from . import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 urlpatterns = [
@@ -8,3 +9,5 @@ urlpatterns = [
     path('services/', views.services),
     path('contactus/', views.contactus),
 ]
+
+urlpatterns += staticfiles_urlpatterns()
