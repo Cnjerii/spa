@@ -2,21 +2,20 @@
 {% load static %}
 {% block content %}
 
-<section id="bg" style="background-image: url('static/images/about.jpg')";> >
+<section>
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="col-md-4 d-flex align-items-stretch">
 				<div class="about text-center px-2 px-lg-5">
 			     <div class="col-md-3 ftco-animate">
-				<a href="static/images/galler-6.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(/static/images/about.jpg);">
-				</a>
 			</div>
 					<div class="text mt-4">
 						<h3 class="mb-4"><b>EXPLORE YOUR NATURAL ESCENCE</b></h3>
 						<p class="mb-5"><br>
 At CHRISTY'S we have come a long way in ensuring that all our clients get value for money and great service while at it.I personally took the lead with ensuring that our staff fully understand the core values at Christy… Values such as excellence in their work, kindness, warmth, team work just to name a few. When I was going through that special process of coming up with a brand, I envisioned a salon that felt like home; from the decor to the client care I wanted that to be our truth…</p>
-						<p><a href="#" class="btn btn-white px-4 py-3"><span class="ion-ios-arrow-round-forward"></span></a></p>
+
+						<p><img src="{% static 'images/bg_4.jpg' %}"</p>
 					</div>
 				</div>
 			</div>
@@ -36,7 +35,9 @@ At CHRISTY'S we have come a long way in ensuring that all our clients get value 
         <div class="row">
 			<div class="col-md-4 col-x5-6">
 				<div class="coach align-items-stretch">
-	    			<div class="img" style="background-image: url(static/images/spa-1.jpg);"></div>
+					<img src="{% static 'images/spa-1.jpg' %}">
+					<img src="{% static 'images/spa-1.jpg' %}">
+	    			<!-- <div class="img" style="background-image: url(static/images/spa-1.jpg);"></div> -->
 				</div>
 			</div>
     	</div>
