@@ -2,6 +2,11 @@
 {% load static %}
 {% include 'mysite/navbar.html' %}
 {% block content %}
+<style>
+body {
+  background-image: url('static/images/gallery-6.jpg');
+}
+</style>
 <body class="hero-wrap js-fullheight" style="background-image: url('static/images/gallery-4.jpg');" data-stellar-background-ratio="0.5">
 	<section class="ftco-section ftco-no-pt ftco-no-pb">
 	<div class="container">
@@ -90,10 +95,10 @@
 				<img src="{% static 'images/spa-1.jpg' %}" width="240" height="240">
 			</div>
 			<div class="col-md-4 col-x5-6">
-				<img src="{% static 'makeup.jpg' %}" width="240" height="240">
+				<img src="{% static 'images/makeup.jpg' %}" width="240" height="240">
 			</div>
 			<div class="col-md-4 col-x5-6">
-				<img src="{% static 'makeup-creative.jpg' %}" width="240" height="240">
+				<img src="{% static 'images/makeup-creative.jpg' %}" width="240" height="240">
 			</div>
 		</div>
     </div>
