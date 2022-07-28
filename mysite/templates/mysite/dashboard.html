@@ -1,4 +1,5 @@
 {% extends 'mysite/main.html' %}
+{% load static %}
 
 {% block content %}
 <br>
@@ -27,7 +28,7 @@
 	            </div>
 	          </div>
             <p>
-            	<a href="contactus" class="btn btn-primary p-3 px-5 py-4 mr-md-2">book appointment</a>
+            	<a href="{% url 'contact-us' %}" class="btn btn-primary p-3 px-5 py-4 mr-md-2">book appointment</a>
             </p>
           </div>
         </div>
